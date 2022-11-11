@@ -1,5 +1,6 @@
 #ignorar todos los archivos siguientes
 .DS_Store
+.app.json
 
 
 #ignorar Todo lo que se encuentre dentro de esta carpeta y no subirla

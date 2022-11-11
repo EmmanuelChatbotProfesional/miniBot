@@ -1,15 +1,18 @@
 {
-    "name": "MiniBot",
-    "repository": "https://github.com/EmmanuelChatbotProfesional/miniBot",
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      },
-      {
-        "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git"
-      }
-    ],
-    "env": {
-      "PORT":3000
+  "name": "MiniBot",
+  "repository": "https://github.com/EmmanuelChatbotProfesional/miniBot",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git"
     }
+  ],
+  "env": {
+    "PORT":3000
+  }
 }
