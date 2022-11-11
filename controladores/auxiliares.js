@@ -26,7 +26,7 @@ const verificarArchivoEnv = () => {
     const pathEnv = `${__dirname}/../.env`;
     const isExist = fs.existsSync(pathEnv);
     if(!isExist){
-        console.log(` ATENCION!  es necesario crear el archivo .env para que funcione el programa, basarse en el archivo .envEjemplo`)
+        console.log(` ATENCION!  es necesario crear el archivo .env para que funcione el programa, basarse en el archivo .env.example`)
     }
 }
 
