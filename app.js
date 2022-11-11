@@ -19,10 +19,12 @@ const portWhatsapp = process.env.PORT || 3000;
  * para windows -> executablePath: "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
  * para linux   -> executablePath: '/usr/bin/google-chrome-stable'
  * para macOS   -> executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+ * 
+ *  puppeteer: { headless: true, executablePath: '/usr/bin/google-chrome-stable' }
  */
 var client = new Client({
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: true, executablePath: '/usr/bin/google-chrome-stable' }
+    puppeteer: { headless: true }
 });
 
 /** Escuchar mensajes enviados  */

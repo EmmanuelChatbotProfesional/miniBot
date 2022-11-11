@@ -34,8 +34,9 @@ const DIR_MEDIA = `${__dirname}/../archivosAEnviar`;
             var tipoArchivo = media.mimetype.split('/');
             if (tipoArchivo[0] == 'video') {
                 //client.sendMessage(number, media, {sendMediaAsDocument: true });
-                client.sendMessage(number, media);
-                console.log(`... Enviando Video....`);
+                /*client.sendMessage(number, media);
+                console.log(`... Enviando Video....`);*/
+                console.log(`... por ahora no se puede enviar video....`)
             } else {
                 client.sendMessage(number, media);
                 console.log(`... Enviando media....`);
