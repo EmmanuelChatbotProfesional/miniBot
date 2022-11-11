@@ -1,0 +1,10 @@
+#ignorar todos los archivos siguientes
+.DS_Store
+.env
+
+
+#ignorar Todo lo que se encuentre dentro de esta carpeta y no subirla
+.wwebjs_auth/
+node_modules/
+
+

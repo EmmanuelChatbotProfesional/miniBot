@@ -1,0 +1,17 @@
+{
+    "name": "MiniBot",
+    "repository": "https://github.com/EmmanuelChatbotProfesional/miniBot",
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+      }
+    ],
+    "env": {
+        "SISTEMA_OPERATIVO_SERVIDOR":"macOS",
+        "PUERTO_WHATSAPP":3000,
+        "PUERTO_APPSCRIPT":8000
+    }
+}

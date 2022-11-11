@@ -1,0 +1,149 @@
+[
+    {
+        "palabras_clave":  [
+            "hola",
+            "hola!",
+            "ola",
+            "ole",
+            "inicio",
+            "welcome",
+            "buenos días",
+            "buenas tardes",
+            "buenas noches",
+            "me dieron este número",
+            "venden a crédito",
+            "quisiera saber si venden",
+            "necesito saber"
+        ],
+        "key": "REGLA_1",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "cursos",
+            "info",
+            "curso"        ],
+        "key": "REGLA_2",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "angular"
+        ],
+        "key": "REGLA_2_1",
+        "reglas_saltadas":["REGLA_2"],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "node"
+        ],
+        "key": "REGLA_2_2",
+        "reglas_saltadas":["REGLA_2"],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "ngrx"
+        ],
+        "key": "REGLA_2_3",
+        "reglas_saltadas":["REGLA_2"],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "aws"
+        ],
+        "key": "REGLA_2_4",
+        "reglas_saltadas":["REGLA_2"],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "asesor",
+            "asesores",
+            "Vendedor",
+            "cobrador"
+        ],
+        "key": "REGLA_3",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"1"
+    },
+    {
+        "palabras_clave":  [
+            "muchas gracias",
+            "ok",
+            "gracias",
+            "vale gracias"
+        ],
+        "key": "REGLA_4",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"1"
+    },
+    {
+        "palabras_clave":  [
+            "youtube"
+        ],
+        "key": "REGLA_5",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"1"
+    },
+    {
+        "palabras_clave":  [
+            "VER_CURSOS"
+        ],
+        "key": "REGLA_6",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"1"
+    },
+    {
+        "palabras_clave":  [
+            "voz"
+        ],
+        "key": "REGLA_7",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "audio"
+        ],
+        "key": "REGLA_8",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "video"
+        ],
+        "key": "REGLA_9",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "pdf"
+        ],
+        "key": "REGLA_10",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "imagen"
+        ],
+        "key": "REGLA_11",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    },
+    {
+        "palabras_clave":  [
+            "gif"
+        ],
+        "key": "REGLA_12",
+        "reglas_saltadas":[],
+        "tipo_concordancia":"2"
+    }
+]
