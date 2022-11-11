@@ -30,14 +30,4 @@ const verificarArchivoEnv = () => {
     }
 }
 
-const ubicacionChrome = () => {
-    if(process.env.SISTEMA_OPERATIVO_SERVIDOR == "macOS") {
-        return '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
-    } else if(process.env.SISTEMA_OPERATIVO_SERVIDOR == "windows") {
-        return "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe";
-    } else if(process.env.SISTEMA_OPERATIVO_SERVIDOR == "linux") {
-        return '/usr/bin/google-chrome-stable';
-    }
-}
-
-module.exports = {esNumeroValido, obtenerNumeroCelular, esUrl,verificarArchivoEnv, ubicacionChrome}
+module.exports = {esNumeroValido, obtenerNumeroCelular, esUrl,verificarArchivoEnv}

@@ -4,16 +4,22 @@ const express = require('express');
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const { obtenerMensajes, responderMensajes} = require('./controladores/flujo')
-const { esNumeroValido, obtenerNumeroCelular, verificarArchivoEnv, ubicacionChrome} = require('./controladores/auxiliares')
+const { esNumeroValido, obtenerNumeroCelular, verificarArchivoEnv} = require('./controladores/auxiliares')
 const { enviarMensaje, enviarMedia, enviarNotaVoz} = require('./controladores/envio')
 
 const webFramework = express();
 webFramework.use(cors());
 webFramework.use(express.json());
 const whatsappServer = require('http').Server(webFramework);
-const portWhatsapp = process.env.PUERTO_WHATSAPP || 3000;
+const portWhatsapp = process.env.PORT || 3000;
 
 
+/**
+ * Cambiar dependiendo del sistema operativo del servidor
+ * para windows -> executablePath: "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+ * para linux   -> executablePath: '/usr/bin/google-chrome-stable'
+ * para macOS   -> executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+ */
 var client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: { headless: true, executablePath: '/usr/bin/google-chrome-stable' }

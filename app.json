@@ -10,8 +10,6 @@
       }
     ],
     "env": {
-        "SISTEMA_OPERATIVO_SERVIDOR":"macOS",
-        "PUERTO_WHATSAPP":3000,
-        "PUERTO_APPSCRIPT":8000
+      "PORT":3000
     }
 }
