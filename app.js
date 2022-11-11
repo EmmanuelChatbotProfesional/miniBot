@@ -16,7 +16,7 @@ const portWhatsapp = process.env.PUERTO_WHATSAPP || 3000;
 
 var client = new Client({
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: true, executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' }
+    puppeteer: { headless: true, executablePath: '/usr/bin/google-chrome-stable' }
 });
 
 /** Escuchar mensajes enviados  */
