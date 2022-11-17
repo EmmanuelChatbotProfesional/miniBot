@@ -1,98 +1,19 @@
 {
-    "DEFAULT":{
+   "REGLA_1":{
         "mensajeRespuesta":[
-            "*Esta respuesta es un respuesta default* cuando no se consigue una palabra clave \n",
-            "la puedes desactivar en tu archivo .env DEFAULT_MESSAGE=false \n",
-            "tambien te quiero recordar que si presentas algun error pasarte por el repositorio \n",
-            "https://github.com/leifermendez/bot-whatsapp#chatbot-whatsapp-opensource \n",
-            "y recuerda tener la ultima versión del proyecto \n\n",
-            "Prueba escribiendo *hola* \n"
+            "Hola! Bienvenido al curso de Emmanuel Chatbotprofesional 🤖\n"
         ],
-        "media":null,
-        "trigger":null
-    },
-    "REGLA_0":{
-        "mensajeRespuesta":[
-            "El flujo ha finalizado \n",
-            "pero puedes ver todo el codigo de este \n",
-            "repositorio en https://github.com/leifermendez/bot-whatsapp.git"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "REGLA_1":{
-        "mensajeRespuesta":[
-            "Hola! y✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, lo primero \n",
-            "decirte que mi nombre es *Leifer Mendez*😎  \n",
-            "\n Si necesitas ver más info sobre las capacitacion tecnicas ",
-            "escribe *cursos* o *info* o escribe *audio*"
-        ],
-        "media":"prueba gif.gif",
-        "trigger":null,
-        "actions":{
-            "title":"¿Que te interesa ver?",
-            "message":"Recuerda todo este contenido es gratis y estaria genial que me siguas!",
-            "footer":"Gracias",
-            "buttons":[
-                {"body":"Cursos"},
-                {"body":"Youtube"},
-                {"body":"Telegram"}
-            ]
-        }
+        "media":null
     },
     "REGLA_2":{
         "mensajeRespuesta":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
+            "Preparate para llevar tu negocio al siguiente nivel  \n",
+            "con Emmanuel chatbot profesional lo podrás lograr 🙂🤖 \n\n",
+            "https://www.emmanuelchatbotprofesional.com \n"
         ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
-        "trigger":null
+        "media":null
     },
-    "REGLA_2_1":{
-        "mensajeRespuesta":[
-            "Si te interesa Angular tienes disponible \n",
-            "*(Gratis)* https://bit.ly/367tJ32 \n\n",
-            "*(Pago)* https://link.codigoencasa.com/PROMO-INICIAL \n\n",
-            "*(Pago)* https://link.codigoencasa.com/ANGULAR-BASICO-EDTEAM \n\n",
-            "😎😎😎"
-        ],
-        "media":"Primavera1.png",
-        "trigger":null
-    },
-    "REGLA_2_2":{
-        "mensajeRespuesta":[
-            "Si te interesa NODE tienes disponible \n",
-            "*(Gratis)* https://bit.ly/3od1Bl6 \n\n",
-            "Espero pronto tener más material disponible",
-            "🤖"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "REGLA_2_3":{
-        "mensajeRespuesta":[
-            "NGRX para manejar estados en Angular \n",
-            "*(Gratis)* https://bit.ly/ngrx-desde-cero \n",
-            "A darle! 😮"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "REGLA_2_4":{
-        "mensajeRespuesta":[
-            "Muy bien AWS esta pronto a salir pre-registrate aquí \n",
-            "*(Pre-registro)* https://link.codigoencasa.com/AWS-BASICO-INVITACION \n",
-            "😮😮"
-        ],
-        "media":null,
-        "trigger":null
-    },
+   
     "REGLA_3":{
         "mensajeRespuesta":[
             "¿Ok cual curso te intereso? \n",
@@ -145,7 +66,7 @@
         "mensajeRespuesta":[
             "Esto es un audio cualquiera no es nota de voz \n"
         ],
-        "media":"nota-de-voz.mp3",
+        "media":"audio.mp3",
         "esNotaVoz":"0",
         "tiempo_espera_siguiente_regla":5,
         "trigger":null
@@ -155,7 +76,7 @@
         "mensajeRespuesta":[
             "video de compra por internet \n"
         ],
-        "media":"videoPrueba.mp4",
+        "media":"video.mp4",
         "tiempo_espera_siguiente_regla":18,
         "trigger":null
     },

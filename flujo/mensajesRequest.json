@@ -12,7 +12,7 @@
             "buenas noches",
             "me dieron este número",
             "venden a crédito",
-            "quisiera saber si venden",
+            "quisiera saber si venden el curso de Emmanuel chatbot profesional",
             "necesito saber"
         ],
         "key": "REGLA_1",
@@ -30,46 +30,11 @@
     },
     {
         "palabras_clave":  [
-            "angular"
-        ],
-        "key": "REGLA_2_1",
-        "reglas_saltadas":["REGLA_2"],
-        "tipo_concordancia":"2"
-    },
-    {
-        "palabras_clave":  [
-            "node"
-        ],
-        "key": "REGLA_2_2",
-        "reglas_saltadas":["REGLA_2"],
-        "tipo_concordancia":"2"
-    },
-    {
-        "palabras_clave":  [
-            "ngrx"
-        ],
-        "key": "REGLA_2_3",
-        "reglas_saltadas":["REGLA_2"],
-        "tipo_concordancia":"2"
-    },
-    {
-        "palabras_clave":  [
-            "aws"
-        ],
-        "key": "REGLA_2_4",
-        "reglas_saltadas":["REGLA_2"],
-        "tipo_concordancia":"2"
-    },
-    {
-        "palabras_clave":  [
-            "asesor",
-            "asesores",
-            "Vendedor",
-            "cobrador"
+            "chatbot"
         ],
         "key": "REGLA_3",
-        "reglas_saltadas":[],
-        "tipo_concordancia":"1"
+        "reglas_saltadas":["REGLA_2"],
+        "tipo_concordancia":"2"
     },
     {
         "palabras_clave":  [
