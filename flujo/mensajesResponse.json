@@ -81,7 +81,7 @@
             "revisa la infomación \n"
         ],
         "media":"flores cosmos.pdf",
-        "tiempo_espera_siguiente_regla":1,
+        "tiempo_espera_siguiente_regla":1
     },
     "REGLA_11":{
         "mensajeRespuesta":[
