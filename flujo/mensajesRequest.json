@@ -5,15 +5,12 @@
             "hola!",
             "ola",
             "ole",
-            "inicio",
-            "welcome",
+            "buenas",
             "buenos días",
             "buenas tardes",
             "buenas noches",
             "me dieron este número",
-            "venden a crédito",
-            "quisiera saber si venden el curso de Emmanuel chatbot profesional",
-            "necesito saber"
+            "quisiera saber si venden el curso de Emmanuel chatbot profesional"
         ],
         "key": "REGLA_1",
         "reglas_saltadas":[],
@@ -21,9 +18,8 @@
     },
     {
         "palabras_clave":  [
-            "cursos",
-            "info",
-            "curso"        ],
+            "curso",
+            "cursos"        ],
         "key": "REGLA_2",
         "reglas_saltadas":[],
         "tipo_concordancia":"2"
@@ -41,6 +37,7 @@
             "muchas gracias",
             "ok",
             "gracias",
+            "listo, gracias",
             "vale gracias"
         ],
         "key": "REGLA_4",
@@ -57,11 +54,11 @@
     },
     {
         "palabras_clave":  [
-            "VER_CURSOS"
+            "imagen"
         ],
         "key": "REGLA_6",
         "reglas_saltadas":[],
-        "tipo_concordancia":"1"
+        "tipo_concordancia":"2"
     },
     {
         "palabras_clave":  [
@@ -97,17 +94,9 @@
     },
     {
         "palabras_clave":  [
-            "imagen"
-        ],
-        "key": "REGLA_11",
-        "reglas_saltadas":[],
-        "tipo_concordancia":"2"
-    },
-    {
-        "palabras_clave":  [
             "gif"
         ],
-        "key": "REGLA_12",
+        "key": "REGLA_11",
         "reglas_saltadas":[],
         "tipo_concordancia":"2"
     }

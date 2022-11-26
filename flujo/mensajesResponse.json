@@ -1,4 +1,13 @@
 {
+    "ejemplo":{
+        "mensajeRespuesta":[
+            "puedes poner la cantidad \n",
+            "de mensajes separados que quieras \n",
+            "*usar negrita*, mandar emojis 🙂"
+        ],
+        "media":null,
+        "tiempo_espera_siguiente_regla":1
+    },
    "REGLA_1":{
         "mensajeRespuesta":[
             "Hola! Bienvenido al curso de Emmanuel Chatbotprofesional 🤖\n"
@@ -7,59 +16,47 @@
     },
     "REGLA_2":{
         "mensajeRespuesta":[
+            "¿Ok cual curso te intereso? \n"
+        ],
+        "media":null
+    },
+    "REGLA_3":{
+        "mensajeRespuesta":[
             "Preparate para llevar tu negocio al siguiente nivel  \n",
             "con Emmanuel chatbot profesional lo podrás lograr 🙂🤖 \n\n",
             "https://www.emmanuelchatbotprofesional.com \n"
         ],
         "media":null
     },
-   
-    "REGLA_3":{
-        "mensajeRespuesta":[
-            "¿Ok cual curso te intereso? \n",
-            "*angular* , *node*, *ngrx*, *aws*"
-        ],
-        "media":null,
-        "trigger":null
-    },
     "REGLA_4":{
         "mensajeRespuesta":[
-            "Gracias a ti! \n"
+            "Gracias a ti! y que la tecnología te acompañe!! \n"
         ],
-        "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
-        "trigger":null
+        "media":null
     },
     "REGLA_5":{
         "mensajeRespuesta":[
-            "Muy bien te comparto el canal de Youtube \n",
-            "https://youtube.com/leifermendez \n"
+            "Para que veas tips y nuevas cosas interesantes te dejo el canal de Emmanuel Chatbot Profesional\n",
+            "https://www.youtube.com/@EmmanuelChatbotProfesional \n"
         ],
-        "media":null,
-        "trigger":null
+        "media":null
     },
     "REGLA_6":{
         "mensajeRespuesta":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
+            "te enviaremos una imagen \n",
+            "revisa la infomación \n"
         ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
-        "trigger":null
+        "media":"Primavera1.png",
+        "tiempo_espera_siguiente_regla":1
     },
     "REGLA_7":{
         "tiempo_espera_antes_enviar_regla":3,
         "mensajeRespuesta":[
-            "revisa la nota de voz \n"
+            "revisa la nota de voz, puedes mandar la nota de voz incluso sin un mensaje de texto solo tienes que dejar esta sección vacía []\n"
         ],
         "media":"nota-de-voz.mp3",
         "esNotaVoz":"1",
-        "tiempo_espera_siguiente_regla":3,
-        "trigger":null
+        "tiempo_espera_siguiente_regla":3
     },
     "REGLA_8":{
         "tiempo_espera_antes_enviar_regla":3,
@@ -68,8 +65,7 @@
         ],
         "media":"audio.mp3",
         "esNotaVoz":"0",
-        "tiempo_espera_siguiente_regla":5,
-        "trigger":null
+        "tiempo_espera_siguiente_regla":5
     },
     "REGLA_9":{
         "tiempo_espera_antes_enviar_regla":3,
@@ -77,8 +73,7 @@
             "video de compra por internet \n"
         ],
         "media":"video.mp4",
-        "tiempo_espera_siguiente_regla":18,
-        "trigger":null
+        "tiempo_espera_siguiente_regla":18
     },
     "REGLA_10":{
         "mensajeRespuesta":[
@@ -87,24 +82,13 @@
         ],
         "media":"flores cosmos.pdf",
         "tiempo_espera_siguiente_regla":1,
-        "trigger":null
     },
     "REGLA_11":{
-        "mensajeRespuesta":[
-            "te enviaremos una imagen \n",
-            "revisa la infomación \n"
-        ],
-        "media":"Primavera1.png",
-        "tiempo_espera_siguiente_regla":1,
-        "trigger":null
-    },
-    "REGLA_12":{
         "mensajeRespuesta":[
             "te enviaremos un gif \n",
             "revisa la infomación \n"
         ],
         "media":"prueba gif.gif",
-        "tiempo_espera_siguiente_regla":1,
-        "trigger":null
+        "tiempo_espera_siguiente_regla":1
     }
 }
