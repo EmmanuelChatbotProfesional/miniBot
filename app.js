@@ -24,7 +24,7 @@ const portWhatsapp = process.env.PORT || 3000;
  */
 var client = new Client({
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: true }
+    puppeteer: { headless: true, args: ['--no-sandbox','--disable-setuid-sandbox'] }
 });
 
 /** Escuchar mensajes enviados  */
